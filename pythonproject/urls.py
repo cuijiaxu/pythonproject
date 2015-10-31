@@ -19,5 +19,5 @@ from pthpwebservice.views import website_login
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^login/', website_login()),
+    url(r'^login/', website_login),
 ]
